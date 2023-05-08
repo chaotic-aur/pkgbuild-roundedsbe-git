@@ -6,8 +6,7 @@ pkgdesc="Kwin Window Decoration with Round corners and outline effect for KWin"
 arch=(x86_64)
 url="https://github.com/a-parhom/RoundedSBE"
 license=(GPL3)
-depends=('qt5-x11extras' 'qt5-xmlpatterns' 'qt5-tools' 'kconfig' 'kconfigwidgets' 'ki18n' 'kcoreaddons' 'kcrash' 'kio' 'kservice' 'kinit' 'knotifications' 'kwin' 'kwidg
-etsaddons' 'kwindowsystem' 'kguiaddons' 'kglobalaccel' 'kde-dev-utils')
+depends=('qt5-x11extras' 'qt5-xmlpatterns' 'qt5-tools' 'kconfig' 'kconfigwidgets' 'ki18n' 'kcoreaddons' 'kcrash' 'kio' 'kservice' 'kinit' 'knotifications' 'kwin' 'kwidgetsaddons' 'kwindowsystem' 'kguiaddons' 'kglobalaccel' 'kde-dev-utils')
 makedepends=('git' 'extra-cmake-modules', 'kdelibs4support')
 provides=('roundedsbe')
 conflicts=('roundedsbe')
